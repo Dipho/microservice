@@ -1,0 +1,41 @@
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.infonika</groupId>
+	<artifactId>test-app</artifactId>
+	<version>1</version>
+		<profiles>
+	 <profile>
+	  <id>everything</id>
+	  <build>
+	   <plugins>
+	    <plugin>
+	     <artifactId>maven-jar-plugin</artifactId>
+	     <configuration>
+	      <classifier>everything</classifier>
+	      <includes>
+	       <include>**/*</include> 
+	      </includes> 
+	     </configuration> 
+	    </plugin> 
+	   </plugins> 
+	  </build> 
+	 </profile>
+	 <profile> 
+	  <id>only-library</id> 
+	  <build> 
+	   <plugins> 
+	    <plugin> 
+	     <artifactId>maven-jar-plugin</artifactId> 
+	     <configuration> 
+		 	<classifier>only-library</classifier> 
+		    <excludes> 
+		      <exclude>**/Main*</exclude> 
+		    </excludes> 
+	     </configuration> 
+	    </plugin> 
+	   </plugins> 
+	  </build> 
+	 </profile>
+	</profiles> 
+</project>
+

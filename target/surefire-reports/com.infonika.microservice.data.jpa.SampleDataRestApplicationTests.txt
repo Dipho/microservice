@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.infonika.microservice.data.jpa.SampleDataRestApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.55 sec - in com.infonika.microservice.data.jpa.SampleDataRestApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.032 sec - in com.infonika.microservice.data.jpa.SampleDataRestApplicationTests

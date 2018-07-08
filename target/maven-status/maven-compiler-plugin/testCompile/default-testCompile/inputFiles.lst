@@ -1,6 +1,7 @@
 /home/dipho/eclipse-workspace/microservice/src/test/java/com/infonika/microservice/data/jpa/service/CityRepositoryIntegrationTests.java
 /home/dipho/eclipse-workspace/microservice/src/test/java/com/infonika/microservice/data/jpa/service/CityRepositoryTest.java
 /home/dipho/eclipse-workspace/microservice/src/test/java/com/infonika/microservice/data/jpa/CityRest.java
+/home/dipho/eclipse-workspace/microservice/src/test/java/com/infonika/microservice/data/jpa/TestRunner.java
 /home/dipho/eclipse-workspace/microservice/src/test/java/com/infonika/microservice/data/jpa/service/HotelRepositoryTest.java
 /home/dipho/eclipse-workspace/microservice/src/test/java/com/infonika/microservice/data/jpa/SampleDataRestApplicationTests.java
 /home/dipho/eclipse-workspace/microservice/src/test/java/com/infonika/microservice/data/jpa/FunctionalTest.java
